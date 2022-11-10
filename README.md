@@ -1,6 +1,17 @@
 # Python_Banking
 A Python Banking Application implemented with a queue and BST. Below were the design ideas conveyed in this project
 *********************************************************************************************************************
+Problem Overview:
+You will build a banking application which processes transactions.  This banking 
+application consists of three phases.  
+1) The program will read in a string of transactions from a file into an in-memory queue. 
+These transactions can open accounts, withdraw funds, deposit funds, transfer funds, or ask for
+the transactional history to be printed.
+2) The program will next read from the queue and process the transactions in order.
+3)  When the queue has been depleted the program will print out all open accounts and 
+balances in those accounts.
+
+*********************************************************************************************************************
 
 > Client Accounts and Funds:
 Each client account contains assets held in up to ten funds.  A client account is 
